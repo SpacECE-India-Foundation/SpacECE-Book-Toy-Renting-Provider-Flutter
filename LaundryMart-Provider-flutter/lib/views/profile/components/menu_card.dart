@@ -84,7 +84,7 @@ class MenuCard extends StatelessWidget {
                       child: LiteRollingSwitch(
                         //initial value
                         width: 110.w,
-                        colorOff: AppColor.violetColor,
+                        colorOff: AppColor.yellowColor,
                         animationDuration: const Duration(milliseconds: 500),
                         textOnColor: colors(context).accentColor ??
                             AppColor.offWhiteColor,

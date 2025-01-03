@@ -9,9 +9,9 @@ ThemeData getAppTheme(
     useMaterial3: true,
     extensions: <ThemeExtension<AppColors>>[
       AppColors(
-        primaryColor: AppColor.violetColor,
+        primaryColor: AppColor.yellowColor,
         accentColor: AppColor.offWhiteColor,
-        buttonColor: AppColor.violetColor,
+        buttonColor: AppColor.yellowColor,
         bodyTextColor: isDarkTheme ? AppColor.whiteColor : AppColor.blackColor,
         bodyTextSmallColor: isDarkTheme
             ? AppColor.whiteColor

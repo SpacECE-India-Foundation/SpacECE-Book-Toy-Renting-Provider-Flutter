@@ -87,19 +87,25 @@ class _DashboardLayoutState extends ConsumerState<DashboardLayout> {
   }
 
   Widget _buildAppBar({required BuildContext context}) {
+    final primaryColor = colors(context).primaryColor;
+    final colorWithOpacity = primaryColor?.withOpacity(0.2) ?? Colors.transparent;
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 20.h),
       height: 200.h,
       width: double.infinity,
-      color: colors(context).primaryColor,
+      color: colorWithOpacity,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          SvgPicture.asset(Assets.svg.appbarLogo),
+          Image.asset(
+            'assets/image/logo.png',
+            height: 80.h,
+            width: 80.w,
+          ),
           Stack(
             children: [
               CircleAvatar(
-                backgroundColor: AppColor.violetColor.withGreen(75),
+                backgroundColor: AppColor.yellowColor.withGreen(75),
                 radius: 25.sp,
                 child: SvgPicture.asset(
                   Assets.svg.notification,

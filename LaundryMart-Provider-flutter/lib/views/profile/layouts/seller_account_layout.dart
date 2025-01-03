@@ -219,7 +219,7 @@ class _SellerAccountLayoutState extends ConsumerState<SellerAccountLayout> {
                           borderRadius: BorderRadius.circular(12),
                           border: Border.all(
                             color: colors(context).primaryColor ??
-                                AppColor.violetColor,
+                                AppColor.yellowColor,
                           ),
                         ),
                         child: Center(

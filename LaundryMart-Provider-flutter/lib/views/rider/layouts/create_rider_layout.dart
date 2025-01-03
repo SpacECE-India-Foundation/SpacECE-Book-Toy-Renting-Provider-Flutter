@@ -220,7 +220,7 @@ class _CreateRiderLayoutState extends ConsumerState<CreateRiderLayout> {
                           borderRadius: BorderRadius.circular(12),
                           border: Border.all(
                             color: colors(context).primaryColor ??
-                                AppColor.violetColor,
+                                AppColor.yellowColor,
                           ),
                         ),
                         child: Center(

@@ -149,7 +149,7 @@ class _RiderLayoutState extends ConsumerState<RiderLayout> {
                       const CircleBorder(),
                     ),
                     backgroundColor:
-                        MaterialStateProperty.all<Color>(AppColor.violetColor),
+                        MaterialStateProperty.all<Color>(AppColor.yellowColor),
                     padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
                       const EdgeInsets.all(10.0),
                     ),

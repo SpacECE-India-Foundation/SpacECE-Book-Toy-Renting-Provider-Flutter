@@ -65,7 +65,7 @@ class AppColor {
   static const Color whiteColor = Color(0xFFFFFFFF);
   static const Color offWhiteColor = Color(0xFFF3F4F6);
   static const Color blackColor = Color(0xFF111827);
-  static const Color violetColor = Color(0xFFA259FF);
+  //static const Color violetColor = Color(0xFFA259FF);
   static const Color violet100 = Color(0xFFe8d5ff);
   static const Color redColor = Color(0xFFEF4444);
   static const Color red100 = Color(0xFFFEE2E2);
@@ -81,4 +81,8 @@ class AppColor {
   static const Color processing = Color(0xFF3B82F6);
   static const Color delivering = Color(0xFFF529C8);
   static const Color delivered = Color(0xFF3BD804);
+
+  //colors for spaceEce
+  static const Color yellowColor = Color(0xFFF8A800);
+
 }

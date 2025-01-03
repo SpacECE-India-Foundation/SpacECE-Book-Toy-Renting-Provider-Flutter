@@ -35,10 +35,11 @@ class _LogoAnimationState extends State<LogoAnimation> {
     return AnimatedContainer(
       duration: const Duration(seconds: 1),
       width: _width,
-      child: SvgPicture.asset(
+      // i have made changes here....
+      child: Image.asset(
         color == AppColor.blackColor
-            ? Assets.svg.whiteLogo
-            : Assets.svg.darkLogo,
+            ?  'assets/image/logo.png' // Replace with your new white logo path
+            : 'assets/image/logo.png',   // Replace with your new dark logo path
         fit: BoxFit.contain,
       ),
     );

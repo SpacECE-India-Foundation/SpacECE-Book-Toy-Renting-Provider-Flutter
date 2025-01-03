@@ -75,7 +75,7 @@ class RiderDetailsLayout extends StatelessWidget {
                             S.of(context).edit,
                             style: AppTextStyle(context).bodyText.copyWith(
                                 fontWeight: FontWeight.w500,
-                                color: AppColor.violetColor),
+                                color: AppColor.yellowColor),
                           )
                         ],
                       ),
@@ -168,7 +168,7 @@ class RiderDetailsLayout extends StatelessWidget {
                 text: S.of(context).cashCollectedIn,
                 icon: Assets.svg.doller,
                 count: GlobalFunction.numberLocalization(rider.cashCollected),
-                color: AppColor.violetColor,
+                color: AppColor.yellowColor,
                 context: context,
               ),
             ],
@@ -218,7 +218,7 @@ class RiderDetailsLayout extends StatelessWidget {
               SvgPicture.asset(
                 icon,
                 height: 30,
-                color: type == 'cash' ? AppColor.violetColor : null,
+                color: type == 'cash' ? AppColor.yellowColor : null,
               )
             ],
           ),

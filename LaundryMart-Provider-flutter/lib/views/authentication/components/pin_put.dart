@@ -112,7 +112,7 @@ class _PinputExampleState extends ConsumerState<PinPutWidget> {
                 decoration: defaultPinTheme.decoration!.copyWith(
                   borderRadius: BorderRadius.circular(8),
                   border: Border.all(
-                    color: colors(context).primaryColor ?? AppColor.violetColor,
+                    color: colors(context).primaryColor ?? AppColor.yellowColor,
                   ),
                 ),
               ),

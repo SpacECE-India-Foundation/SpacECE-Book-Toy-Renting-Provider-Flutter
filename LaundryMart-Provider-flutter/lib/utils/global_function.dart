@@ -134,7 +134,7 @@ class GlobalFunction {
       ),
       dismissDirection:
           isTop ? DismissDirection.startToEnd : DismissDirection.down,
-      backgroundColor: isSuccess ? AppColor.violetColor : AppColor.redColor,
+      backgroundColor: isSuccess ? AppColor.yellowColor : AppColor.redColor,
       content: Text(message),
       margin: isTop
           ? EdgeInsets.only(

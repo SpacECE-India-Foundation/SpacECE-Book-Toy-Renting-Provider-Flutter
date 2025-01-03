@@ -41,7 +41,7 @@ class SelectRiderCard extends ConsumerWidget {
               ),
             ),
             leading: CircleAvatar(
-              backgroundColor: AppColor.violetColor,
+              backgroundColor: AppColor.yellowColor,
               radius: 26,
               backgroundImage: CachedNetworkImageProvider(
                 rider.profilePhoto,

@@ -39,7 +39,7 @@ class RiderCard extends StatelessWidget {
           leading: Hero(
             tag: rider.code,
             child: CircleAvatar(
-              backgroundColor: AppColor.violetColor,
+              backgroundColor: AppColor.yellowColor,
               radius: 28,
               backgroundImage: CachedNetworkImageProvider(
                 rider.profilePhoto,

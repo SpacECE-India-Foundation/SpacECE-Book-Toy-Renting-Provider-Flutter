@@ -27,13 +27,13 @@ class OrderTabCard extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 6.w, vertical: 5.h),
         decoration: BoxDecoration(
           color: isActiveTab
-              ? AppColor.violetColor.withOpacity(0.1)
+              ? AppColor.yellowColor.withOpacity(0.1)
               : isDark
                   ? Theme.of(context).scaffoldBackgroundColor
                   : AppColor.offWhiteColor,
           borderRadius: BorderRadius.circular(10.r),
           border: Border.all(
-            color: isActiveTab ? AppColor.violetColor : AppColor.offWhiteColor,
+            color: isActiveTab ? AppColor.yellowColor : AppColor.offWhiteColor,
           ),
         ),
         child: Center(

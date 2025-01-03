@@ -503,7 +503,7 @@ class _OrderDetailsLayoutState extends ConsumerState<OrderDetailsLayout> {
               ),
             ),
             trailing: Material(
-              color: AppColor.violetColor,
+              color: AppColor.yellowColor,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(100),
               ),

@@ -1,6 +1,6 @@
 class AppConstants {
   // API constants
-  static const String baseUrl = 'https://laundrymart.razinsoft.com';
+  static const String baseUrl = 'http://15.207.221.122';
   static const String settings = '$baseUrl/api/master';
   static const String loginUrl = '$baseUrl/api/store/login';
   static const String registrationUrl = '$baseUrl/api/store/register';

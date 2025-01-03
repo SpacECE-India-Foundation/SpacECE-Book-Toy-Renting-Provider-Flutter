@@ -223,7 +223,7 @@ class _ProfileLayoutState extends ConsumerState<ProfileLayout> {
                   inactiveText: S.of(context).close,
                   valueFontSize: 14,
                   activeTextColor: AppColor.whiteColor,
-                  activeColor: AppColor.violetColor,
+                  activeColor: AppColor.yellowColor,
                   inactiveTextFontWeight: FontWeight.w400,
                   activeTextFontWeight: FontWeight.w400,
                   showOnOff: true,
